@@ -66,7 +66,7 @@ export default function Home(): JSX.Element {
           ))}
 
           <Pagination isFirstPage={!response.previous}>
-            <p onClick={() => changePage('previous')}>Previus | </p>
+            <p onClick={() => changePage('previous')}>Previous | </p>
             <p onClick={() => changePage('next')}>Next</p>
           </Pagination>
         </>
