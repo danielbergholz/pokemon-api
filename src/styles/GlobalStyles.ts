@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
   body{
     -webkit-font-smoothing: antialiased !important;
     transition: background-color 300ms;
+    background-color: #cc393b;
   }
 
 
@@ -44,8 +45,7 @@ export const GlobalStyle = createGlobalStyle`
 
   li {
     list-style-type: none;
-    text-transform: uppercase;
-    font-family: 'Anton', Helvetica, Arial;
+    font-family: 'Roboto', Helvetica, Arial;
     font-size: 30px;
   }
 

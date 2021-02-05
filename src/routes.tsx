@@ -11,7 +11,7 @@ const Routes: React.FC = () => {
       <GlobalStyle />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/:pokemonId" component={Pokemon} />
+        <Route path="/:pokemonName" component={Pokemon} />
       </Switch>
     </BrowserRouter>
   );
